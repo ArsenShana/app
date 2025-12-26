@@ -1,9 +1,9 @@
 import { View, Text, StyleSheet } from 'react-native';
 
-export default function TabTwoScreen() {
+export default function Services() {
   return (
     <View style={styles.container}>
-      <Text style={styles.text}>Новая вкладка</Text>
+      <Text style={styles.text}>Переводы</Text>
     </View>
   );
 }

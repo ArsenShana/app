@@ -1,9 +1,9 @@
 import { View, Text, StyleSheet } from 'react-native';
 
-export default function TabTwoScreen() {
+export default function Zai() {
   return (
     <View style={styles.container}>
-      <Text style={styles.text}>Новая вкладка</Text>
+      <Text style={styles.text}>Пусто</Text>
     </View>
   );
 }
@@ -11,11 +11,11 @@ export default function TabTwoScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    justifyContent: 'center',
+    width: '100%',
     alignItems: 'center',
-    backgroundColor: '#fff',
+    justifyContent: 'center',
   },
   text: {
-    fontSize: 20,
+    fontSize: 18,
   },
 });
